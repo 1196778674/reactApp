@@ -1,0 +1,16 @@
+import React, {Component} from "react";
+import {StyleSheet, Image, Text} from "react-native";
+
+export default class SelectedList extends Component {
+	constructor(props) {
+	  super(props);
+	
+	  this.state = {};
+	}
+
+	render () {
+		return (
+			<Text>list3</Text>
+		)
+	}
+}
