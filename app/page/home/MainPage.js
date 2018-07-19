@@ -32,7 +32,7 @@ export default class MainPage extends Component {
 	  super(props);
 	
 	  this.state = {
-	  	selectedTab: SELECTED_TAG
+	  	selectedTab: EXPLORE_TAG
 	  };
 	}
 
