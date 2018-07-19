@@ -16,6 +16,8 @@
 		"babel-jest": "23.4.0",
 		"babel-preset-react-native": "4.0.0",
 		"jest": "23.4.1",
+		"native-base": "^2.7.1",
+		"react-native-banner": "^0.1.0",
 		"react-test-renderer": "16.0.0-alpha.6"
 	},
 	"jest": {
