@@ -17,11 +17,19 @@ export default class SelectedList_1 extends Component {
 	  super(props);
 	
 	  this.state = {
-            account: '234',
+            account: '',
             password: '',
             verifyString: '获取验证码',
             isCounting: false,
     	};
+	}
+
+	_fetchVerifyCode () {
+
+	}
+
+	_onLoginButtonClick () {
+
 	}
 
 	render () {
@@ -29,16 +37,9 @@ export default class SelectedList_1 extends Component {
 			 <Container>
 			 	<Header style={{backgroundColor: 'white', height: 48}}>
 
-                    <Left>
-                        <Button transparent >
-                        	<Text>button</Text>
-                        </Button>
-                    </Left>
-
-                    <Body>
-                    <Title style={{color: '#333'}}>登录</Title>
-
-                    </Body>
+                    <Title>
+                    	<Text>登录</Text>
+                    </Title>
 
                 </Header>
 		 	<Content style={{backgroundColor: 'white'}}>
@@ -52,6 +53,7 @@ export default class SelectedList_1 extends Component {
                                 maxLength={11}
                                 returnKeyType={'next'}
                                 underlineColorAndroid={'transparent'}
+                                value = {this.state.account}
                                 onChangeText={(input)=> {
                                     this.setState({account: input})
                                 }}
