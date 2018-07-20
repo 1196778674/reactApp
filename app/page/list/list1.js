@@ -100,7 +100,8 @@ const TextInputStyle = StyleSheet.create({
         alignItems: 'center',
         marginHorizontal: 14,
         marginBottom: 8,
-
+        paddingTop: 10,
+        paddingBottom: 10
     },
     view_password_input_container: {
         borderBottomWidth: 0.5,
@@ -108,6 +109,8 @@ const TextInputStyle = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         marginHorizontal: 14,
+        paddingTop: 10,
+        paddingBottom: 10
 
     },
     input_account: {

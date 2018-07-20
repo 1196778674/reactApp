@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {StyleSheet, Image, Text} from "react-native";
+import {StyleSheet, Image, Text, Dimensions} from "react-native";
 
 export default class SelectedList extends Component {
 	constructor(props) {
